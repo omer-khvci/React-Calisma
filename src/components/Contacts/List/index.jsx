@@ -11,7 +11,6 @@ function List({ contacts }) {
                 .includes(filterText.toLocaleLowerCase())
         );
     })
-    console.log("filtered ", filterContacts)
     return (
         <div>
             <input

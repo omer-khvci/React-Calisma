@@ -16,8 +16,7 @@ function Form({addContact , contacts}) {
         e.preventDefault();
         if(form.fullname ==="" || form.phone_number ==="")
             return false;
-        addContact([...contacts, form])    
-        console.log(form);
+        addContact([...contacts, form])  
         
     };
 
