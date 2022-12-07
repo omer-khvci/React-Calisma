@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState ,useEffect} from 'react';
 import '../style.css';
-const initialFormValues ={fullname :"", phone_number :""};
+const initialFormValues ={id: Math.random(1,1000),fullname :"", phone_number :""};
 function Form({addContact , contacts}) {
     const [form,setForm] = useState(initialFormValues);
 
@@ -14,9 +14,12 @@ function Form({addContact , contacts}) {
     };
     const onSubmit = (e) =>{
         e.preventDefault();
-        if(form.fullname ==="" || form.phone_number ==="")
+        if(form.fullname ==="" || form.phone_number ===""){
+
+            alert("Alanları doldurunuz...");
             return false;
-        addContact([...contacts, form])  
+        }
+        addContact([...contacts, form]) 
         
     };
 
