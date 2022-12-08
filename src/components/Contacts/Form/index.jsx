@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState ,useEffect} from 'react';
 import '../style.css';
-const initialFormValues ={id: '_'+Math.random().toString(36).substring(2, 9),fullname :"", phone_number :""};
+const initialFormValues ={fullname :"", phone_number :""};
 function Form({addContact , contacts}) {
     const [form,setForm] = useState(initialFormValues);
 

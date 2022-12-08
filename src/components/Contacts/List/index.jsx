@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
 
-function List({ contacts , setRemovePeople }) {
+function List({ contacts, removeData }) {
 
     const [filterText, setFilterText] = useState("");
-    const filterContacts = contacts.filter((item) => {
+    contacts = contacts.filter((item) => {
         return Object.keys(item).some((key) =>
             item[key]
                 .toString()
@@ -13,10 +13,14 @@ function List({ contacts , setRemovePeople }) {
         );
     })
     const removePeople = (e) => {
-        debugger;
         const x = e.target.getAttribute("setremovepeople");
-        if(contacts.length>0)
-        setFilterText(setRemovePeople.filter(items => items.id !== x))
+        const index = contacts.findIndex(items => items.fullname === x)
+        if(index >-1){
+            contacts.splice(index, 1);
+            removeData([...contacts])
+        }
+        
+
     }
     return (
         <div>
@@ -27,7 +31,7 @@ function List({ contacts , setRemovePeople }) {
             />
             <ul className='list'>
                 {
-                    filterContacts.map((contacts, i) => (
+                    contacts.map((contacts, i) => (
                         <li key={i}>
                             <span>{contacts.fullname}
                             </span>
@@ -35,7 +39,7 @@ function List({ contacts , setRemovePeople }) {
                                 {contacts.phone_number}
                             </span>
                             <span
-                                setremovepeople ={contacts.id}
+                                setremovepeople={contacts.fullname}
                                 style={{ cursor: 'pointer' }}
                                 onClick={removePeople}
                             >X
@@ -44,7 +48,7 @@ function List({ contacts , setRemovePeople }) {
                     ))
                 }
             </ul>
-            <p>Total contacts ({filterContacts.length})</p>
+            <p>Total contacts ({contacts.length})</p>
         </div>
     )
 }
