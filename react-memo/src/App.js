@@ -1,5 +1,5 @@
 import './App.css';
-import {useState , useMemo} from "react";
+import {useState, useMemo, useContext, useCallback} from "react";
 import Header from "./components/Header";
 
 function App() {
@@ -8,11 +8,16 @@ function App() {
   const data = useMemo(() =>{
       return calculateObject()
   },[])
+
+  const  increment = useCallback(() => {
+      setNumber(prevState => prevState+ 1);
+  },[])
   return (
     <div className="App">
-      <Header number={number<5 ? 0: number} data ={data}/>
+      <Header increment={increment}/>
+        <br />
+        <br />
       <h1>{number}</h1>
-      <button onClick={() => setNumber(number+1)}> Click</button>
     </div>
   );
 }
