@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b13099b6-2e9f-4a75-ba1c-583df3b3baad" name="Changes" comment="calisma">
+      <change afterPath="$PROJECT_DIR$/chat-app/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/backend/clients/redis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/backend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/backend/lib/Messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/components/ChatForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/components/ChatItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/components/ChatList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/components/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/components/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/context/ChatContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/client/src/socketApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="react-context-api" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IngeIPp4MSuHI0PJ7CNnVfyfho" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/React-Calisma&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\React-Calisma\real-time-app\client\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b13099b6-2e9f-4a75-ba1c-583df3b3baad" name="Changes" comment="" />
+      <created>1670822855179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670822855179</updated>
+      <workItem from="1670822856345" duration="21356000" />
+      <workItem from="1670917531011" duration="6882000" />
+      <workItem from="1671083813169" duration="1762000" />
+      <workItem from="1671085634159" duration="547000" />
+      <workItem from="1671091026523" duration="17896000" />
+      <workItem from="1671113358262" duration="823000" />
+    </task>
+    <task id="LOCAL-00001" summary="calisma">
+      <created>1670832692491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670832692491</updated>
+    </task>
+    <task id="LOCAL-00002" summary="calisma">
+      <created>1670832860720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670832860720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="calisma v2">
+      <created>1670833505188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670833505188</updated>
+    </task>
+    <task id="LOCAL-00004" summary="calisma">
+      <created>1670854000311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670854000311</updated>
+    </task>
+    <task id="LOCAL-00005" summary="calisma">
+      <created>1670924422894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670924422894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="react-real-time-color-picker" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="calisma v2" />
+    <MESSAGE value="calisma" />
+    <option name="LAST_COMMIT_MESSAGE" value="calisma" />
+  </component>
+</project>
