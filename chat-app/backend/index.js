@@ -22,7 +22,6 @@ io.on("connection", (socket) => {
     socket.on("new-message", (message) => {
         console.log(message);
         Messages.upsert({ message });
-
         socket.broadcast.emit("receive-message", message);
     });
 

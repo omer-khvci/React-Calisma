@@ -7,11 +7,10 @@ function Container() {
     const {setMessages} = useChat();
     useEffect(() => {
         init();
-
         subscribeChat((message) => {
-            setMessages((prevState) => [...prevState, { message }]);
+            setMessages((prevState) => [...prevState, { message }]); 
         });
-    }, []);
+    }, [setMessages]);
     return (
         <div className="App">
             <ChatList />

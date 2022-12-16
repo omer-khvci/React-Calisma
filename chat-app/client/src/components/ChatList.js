@@ -6,7 +6,6 @@ import ChatItem from "./ChatItem";
 
 function ChatList() {
     const { messages } = useChat();
-
     return (
         <div className={styles.chatlist}>
             <div>
