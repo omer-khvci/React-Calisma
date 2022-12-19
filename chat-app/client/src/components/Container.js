@@ -10,7 +10,7 @@ function Container() {
         subscribeChat((message) => {
             setMessages((prevState) => [...prevState, { message }]); 
         });
-    }, [setMessages]);
+    }, []);
     return (
         <div className="App">
             <ChatList />

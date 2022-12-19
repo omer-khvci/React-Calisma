@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b13099b6-2e9f-4a75-ba1c-583df3b3baad" name="Changes" comment="calisma">
-      <change afterPath="$PROJECT_DIR$/chat-app/backend/captain-definition" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/client/src/components/ChatForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/client/src/components/ChatForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/client/src/components/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/client/src/components/ChatList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-app/client/src/components/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/client/src/components/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/client/src/context/ChatContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/client/src/context/ChatContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-app/client/src/socketApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-app/client/src/socketApi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +80,8 @@
       <workItem from="1671113358262" duration="823000" />
       <workItem from="1671114213204" duration="86000" />
       <workItem from="1671188756606" duration="5402000" />
-      <workItem from="1671195787411" duration="1618000" />
+      <workItem from="1671195787411" duration="1859000" />
+      <workItem from="1671199808187" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="calisma">
       <created>1670832692491</created>
@@ -130,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671114291818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="calisma">
+      <created>1671199749947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671199749947</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
